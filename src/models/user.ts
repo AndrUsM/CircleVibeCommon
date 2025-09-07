@@ -2,6 +2,7 @@ import { UserChatStatus, UserRole, UserType } from 'src/enums';
 
 export interface User {
   id: number;
+  blockedUserIds: number[];
   username: string;
   firstname: string;
   surname: string;
