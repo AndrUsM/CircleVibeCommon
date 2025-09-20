@@ -3,6 +3,7 @@ export enum MessageFileTypeForBrowser {
   OGG = 'video/ogg',
   WEBM = 'video/webm',
   AVI = 'video/avi',
+
   DOCUMENT = 'document',
   MS_DOCUMENT = 'ms_document',
 }
@@ -15,4 +16,5 @@ export enum MessageFileType {
   IMAGE = 'IMAGE',
   DOCUMENT = 'DOCUMENT',
   MS_DOCUMENT = 'MS_DOCUMENT',
+  MP3_AUDIO = 'MP3_AUDIO',
 }
