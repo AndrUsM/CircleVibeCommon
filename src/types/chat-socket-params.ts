@@ -20,6 +20,7 @@ export interface RequestChatsWithPaginationChatSocketParams {
   name?: string;
   readableName?: string;
   type?: ChatType;
+  empty?: boolean;
 }
 
 export interface RequestMessagesWithPaginationChatSocketParams {
