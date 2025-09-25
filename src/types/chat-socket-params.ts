@@ -1,5 +1,4 @@
-import { ChatType, MessageFileEntityType, MessageFileType, MessageType, UserRole, UserType } from 'src/enums';
-import { Chat, Message } from 'src/models';
+import { ChatType, MessageFileEntityType, MessageFileType, MessageType } from 'src/enums';
 
 export interface RefreshChatsSocketParams {
   chatId: number;

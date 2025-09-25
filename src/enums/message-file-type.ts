@@ -14,7 +14,7 @@ export enum MessageFileType {
   WEBM = 'WEBM',
   AVI = 'AVI',
   IMAGE = 'IMAGE',
+  AUDIO = 'AUDIO',
   DOCUMENT = 'DOCUMENT',
   MS_DOCUMENT = 'MS_DOCUMENT',
-  MP3_AUDIO = 'MP3_AUDIO',
 }

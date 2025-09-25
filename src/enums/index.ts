@@ -6,7 +6,6 @@ export * from './user-type';
 export * from './chat-socket-keys';
 export * from './nationality-code';
 export * from './country-code';
-export * from './user-role';
 export * from './user-chat-role';
 export * from './message-file-entity-type';
 export * from './sort-direction';

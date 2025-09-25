@@ -5,7 +5,6 @@ import { Message } from "./message";
 export interface Chat {
   id: number;
   avatarUrl?: string;
-  hidden: boolean;
   isActive: boolean;
   isSavedMessages?: boolean;
   name: string;

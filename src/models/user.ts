@@ -1,4 +1,4 @@
-import { UserChatStatus, UserRole, UserType } from 'src/enums';
+import { UserChatStatus, UserType } from 'src/enums';
 
 export interface User {
   id: number;
@@ -19,7 +19,6 @@ export interface User {
   privateToken: string;
   primaryPhone: string;
   type: UserType;
-  role: UserRole;
   createdAt: Date;
   updatedAt: Date;
   chatStatus: UserChatStatus;
