@@ -59,7 +59,6 @@ export type JoinChatSocketParams = {
 };
 
 export type CreateChatSocketParams = {
-  hidden: boolean;
   name: string;
   description: string;
   type: ChatType;
@@ -88,20 +87,6 @@ export interface SendFileMessagePartChatSocketParams {
   messageType: MessageType;
   fileMeta: SendFileMessageMetaInput;
 }
-
-// export interface ChatsFilter {
-//   page: number;
-//   limit: number;
-
-//   userId?: number;
-//   readableName?: string;
-//   type?: ChatType;
-//   isGroupChat?: boolean;
-//   updatedAt?: Date;
-//   empty?: boolean;
-//   name?: string;
-//   hidden?: boolean;
-// }
 
 export interface SendFileMessageMetaInput {
   fileName: string;
