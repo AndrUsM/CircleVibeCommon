@@ -3,3 +3,5 @@ export * from './compose-avatar-fallback';
 export * from './get-user-full-name';
 export * from './convert-content-from-base64';
 export * from './convert-content-to-base64';
+export * from './is-boolean';
+export * from './string-to-boolean';
