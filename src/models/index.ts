@@ -5,3 +5,4 @@ export * from './message';
 export * from './chat';
 export * from './thread';
 export * from './chat-participant';
+export * from './bucket';
