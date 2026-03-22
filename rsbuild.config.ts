@@ -9,7 +9,6 @@ const entry = {
 };
 
 export default defineConfig({
-
   output: {
     target: 'node',
     distPath: './build',
@@ -17,7 +16,7 @@ export default defineConfig({
     externals: 'date-fns',
     filenameHash: true,
     manifest: false,
-    // polyfill: 'entry',
+    polyfill: 'entry',
   },
   resolve: {
     extensions: ['.ts', '.js'],
