@@ -1,4 +1,4 @@
-import { UserChatStatus, UserType } from 'src/enums';
+import { AccountStatus, UserChatStatus, UserType } from 'src/enums';
 
 export interface User {
   id: number;
@@ -12,6 +12,7 @@ export interface User {
   avatarUrlOptimized: string;
   isHiddenContactInfo: boolean;
   isAllowedToSearch: boolean;
+  accountStatus?: AccountStatus;
   country: string;
   city: string;
   email: string;
